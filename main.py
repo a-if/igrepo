@@ -16,7 +16,7 @@ except ImportError:
 BOT_TOKEN = "7974707386:AAFP_bgCGVY9aIwtwQYhh4iQWRo-EJ1dTuQ" 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode='HTML')
 
-ADMIN_IDS = [8509189151 7387793694]  
+ADMIN_IDS = [7387793694]  
 
 expiration_date = datetime(2027, 12, 31)
 if datetime.now() > expiration_date:
